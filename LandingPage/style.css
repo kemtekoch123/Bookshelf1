@@ -1,5 +1,5 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 1.6;
@@ -7,14 +7,9 @@
     line-height: 1.6rem;
 }
 
-.image img{
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-}
+/* ----------------------default end-------------- */
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +27,7 @@ header{
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.logo{
+.logo {
     font-size: 32px;
     color: #fff;
     text-decoration: none;
@@ -40,7 +35,7 @@ header{
 }
 
 
-.navbar a{
+.navbar a {
     position: relative;
     font-size: 18px;
     color: #fff;
@@ -48,10 +43,10 @@ header{
     text-decoration: none;
     margin-left: 40px;
 
-    
+
 }
 
-.navbar a::before{
+.navbar a::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -62,46 +57,125 @@ header{
     transition: 0.3s;
 }
 
-.navbar a:hover::before{
+.navbar a:hover::before {
     width: 100%;
 }
 
-.welcome h1{
+.image img {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome h1 {
     color: #fff;
     width: 40%;
     height: 40%;
     line-height: 1em;
 
-    font-size: 5rem;
+    font-size: 12vh;
     position: absolute;
     top: 40%;
     left: 5%;
 }
 
-@media(min-width:468px){
-    .maincontainer{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        /* align-items: flex-start; */
+/* -----------------landing image end -------------- */
+
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.maincontainer div {
     
-        /* below is the default alignment; */
-        /* align-items: stretch;  */
-    
-        /* flex-direction: column; */
-    
-    
+    flex-basis: 20%;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.75);
+    height: 50%;
+    text-align: center;
+}
+
+@media(max-width:1000px) {
+    .maincontainer div{
+        flex-basis: 30%;
     }
 }
 
-.books{
-    margin: 20px;
-    padding: 5px;
+@media(max-width:750px) {
+    .maincontainer div{
+        flex-basis: 50%;
+    }
 }
 
-.maincontainer div{
-    flex-basis: 30%;
-    margin: 5px;
-    padding: 10px;
-    border: 2px solid red;
+.books {
+    margin: 0px 150px;
+    padding: 5px;
+
 }
+
+.boxes img {
+    width: 70%;
+}
+
+
+/* --------------books end-------------------- */
+
+.footer {
+    background: hsla(47, 88%, 54%, 1);
+
+    background: linear-gradient(0deg, hsla(47, 88%, 54%, 1) 0%, hsla(350, 84%, 50%, 1) 100%);
+
+    background: -moz-linear-gradient(0deg, hsla(47, 88%, 54%, 1) 0%, hsla(350, 84%, 50%, 1) 100%);
+
+    background: -webkit-linear-gradient(0deg, hsla(47, 88%, 54%, 1) 0%, hsla(350, 84%, 50%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F1C421", endColorstr="#EB163A", GradientType=1);
+
+
+
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    flex: 1;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer-social {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-social h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.footer img:hover {
+    transform: scale(1.2);
+}
+
+/* -----------footer end------------- */
