@@ -10,6 +10,7 @@
 /* ----------------------default end-------------- */
 
 header {
+    animation: drop 2s ease;
     position: fixed;
     top: 0;
     left: 0;
@@ -67,6 +68,7 @@ header {
     width: 100%;
     background-position: center;
     background-size: cover;
+    
 }
 
 .welcome h1 {
@@ -79,6 +81,20 @@ header {
     position: absolute;
     top: 40%;
     left: 5%;
+    animation: drop 2s ease;
+}
+
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 /* -----------------landing image end -------------- */
@@ -146,6 +162,7 @@ header {
 
 iframe{
     text-align: center;
+    animation: enlarge 2s ease;
 }
 
 
