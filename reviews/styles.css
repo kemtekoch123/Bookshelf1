@@ -9,20 +9,20 @@
 
 header{
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 100px;
-  background-color: transparent;
-  display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-    backdrop-filter: blur(6px) saturate(200%);
-    -webkit-backdrop-filter: blur(6px) saturate(200%);
-    background-color: rgba(162, 224, 70, 0.8);
-    border: 1px solid rgba(255, 255, 255, 0.15); 
-}
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 100px;
+   background-color: transparent;
+   display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 1;
+     backdrop-filter: blur(6px) saturate(200%);
+     -webkit-backdrop-filter: blur(6px) saturate(200%);
+     background-color: rgba(162, 224, 70, 0.8);
+     border: 1px solid rgba(255, 255, 255, 0.15); 
+ }
 
 header p{
     font-size: 32px;
@@ -33,11 +33,11 @@ header p{
 
 .navbar a{
   position: relative;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
+  
 }
 .navbar a::before{
   content: '';
@@ -47,8 +47,9 @@ header p{
     width: 0;
     height: 2px;
     background: #fff;
-    transition: 0.3s;
+    transition: 0.1s;
 }
+
 .navbar a:hover::before{
   width: 100%;
 }
@@ -91,53 +92,24 @@ header p{
   box-shadow: 6px 4px 22px 0px rgba(0,0,0,0.75);
 }
 
-.Reviews p{
-  font-size: 15px;
-  font-family: Noto Sans KR, sans-serif;
+.text{
+    width: 80%;
+    background-color: white;
+    font-size: 1rem;
+    margin-left: 30%;
+    margin-top: 12%;
+    padding: 20px;
+    max-width: 600px;
+    text-align: justify;
 }
-.first p{
-  padding: 2px;
-  margin: 5px;
-  width: 40%;
-  height: 40%;
-  line-height: 1.5em;
-  position: absolute;
-    top: 60%;
-    left: 30%;
-}
-.second p{
-  padding: 2px;
-  margin: 5px;
-  width: 40%;
-  height: 40%;
-  line-height: 1.5em;
-  position: absolute;
-    top: 75%;
-    left: 30%;
-}
-.third p{
-  padding: 2px;
-  margin: 5px;
-  width: 40%;
-  height: 40%;
-  line-height: 1.5em;
-  position: absolute;
-    top: 87%;
-    left: 30%;
-}
-.fourth p{
-  padding: 2px;
-  margin: 5px;
-  width: 40%;
-  height: 40%;
-  line-height: 1.5em;
-  position: absolute;
-    top: 102%;
-    left: 30%;
+.first::first-letter {
+  font-size: 3rem;
+  color: orangered;
+  float: left;
+  margin-right: 0.2rem;
 }
 
-.container{
-  padding: 35px;
-  margin: 2%;
-}
+
+
+
   
