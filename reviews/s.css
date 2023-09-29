@@ -1,0 +1,48 @@
+body{
+    background-image: url(backgroun.jpg);
+    background-size: cover;
+}
+.main{
+  background-color: white;
+  margin-left: 25%;
+  width: 50%;
+  height: 350px;
+  padding: 5px;
+}
+.contents{
+    text-align: center;
+}
+.facebook{
+    background-color: rgb(31, 73, 151);
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 300px;
+    height: 40px;
+  }
+  .email{
+    background-color: rgb(48, 38, 8);
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    width: 300px;
+    height: 40px;
+  }
+
+  .box1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+  }
+
+  .box2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+  }
+
+  p{
+    text-align: center;
+  }
