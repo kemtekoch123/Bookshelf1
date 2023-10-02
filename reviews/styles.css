@@ -122,7 +122,6 @@ header p{
   display: none;
 }
 
-/* Style the star labels */
 .rating label {
   font-size: 30px;
   color: #ccc;
@@ -130,16 +129,14 @@ header p{
   padding: 0 5px;
 }
 
-/* Style the stars when not selected */
 .rating label:before {
   content: "\2606";
-  /* Unicode character for an empty star */
+  
 }
 
-/* Style the stars when selected */
 .rating input[type="radio"]:checked ~ label:before {
-  content: "\2605"; /* Unicode character for a filled star */
-  color: #FFD700; /* Change star color when selected (gold) */
+  content: "\2605"; 
+  color: #FFD700; 
 }
 
 .login{
@@ -164,7 +161,7 @@ header p{
 }
 
 .login a:hover{
-  color: greenyellow
+  color: greenyellow;
  }
 
  .kindle{
