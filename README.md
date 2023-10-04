@@ -43,7 +43,7 @@
 ![Screenshot 2023-10-04 151312](https://github.com/kemtekoch123/Bookshelf1/assets/100512408/997378cb-c53a-483c-a652-880545e43418)
 ![Screenshot 2023-10-04 151318](https://github.com/kemtekoch123/Bookshelf1/assets/100512408/33b57810-e0f1-4a14-8f60-497e46280de6)
 ![Screenshot 2023-10-04 151325](https://github.com/kemtekoch123/Bookshelf1/assets/100512408/ed084a48-439d-4661-8dd4-a5c7b18dc241)
-![Screenshot 2023-10-04 151325](https://github.com/kemtekoch123/Bookshelf1/assets/100512408/58c7aff7-6e45-48aa-8f63-500e3cc92f2a)
+
 
 ## Rahul’s Updates
 - Added Navbar
